@@ -1,7 +1,3 @@
-"""
-Modified GA code from SOURCE
-"""
-
 import random
 import math
 import numpy as np
