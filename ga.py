@@ -323,11 +323,4 @@ for i in range(MAX_RUNS - generation):
     
     print("Maximum fitness of generation {} = {}".format(generation, max_value))
 
-    # if the population sucks, DESTROY THE EARTH
-#    if max_value < FITNESS_THRESHOLD:
- #       print("Population sucked so we're starting with a fresh batch lol")
-  #      population = generate_initial_population()
-   #     generation = 1
-    #    continue
-
     generation += 1
